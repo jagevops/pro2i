@@ -1,4 +1,4 @@
-def sumpairs(arr, )
+def sumpairs(arr):
 x = 2
 arr = [0 for range(x)]
 arr[0] = 1
