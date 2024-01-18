@@ -1,11 +1,7 @@
-def sumpairs(arr):
-x = 2
-arr = [0 for range(x)]
-arr[0] = 1
-arr[1] = 2
-p = []
-getallpairs(arr, 0, x-1,p)
-
-for it in p:
-    print(it[0], it(1))
-     
+def sumpairs(res):
+x = [0, 1, 2, 3, 4, 5]
+print ("The original list is : " + str(x))
+res = []
+for i in range(len(x)):
+    res.append((x[i], x[(i + 1) % len(x)]))
+print("The pair list is :", res)
